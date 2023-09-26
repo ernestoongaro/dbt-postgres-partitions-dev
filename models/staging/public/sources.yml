@@ -1,0 +1,6 @@
+version: 2
+
+sources:
+  - name: public
+    tables:
+      - name: latest_buoy_reports_for_m6  # enabled
