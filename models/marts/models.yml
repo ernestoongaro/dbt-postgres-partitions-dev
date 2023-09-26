@@ -1,0 +1,14 @@
+models:
+  - name: fct_buoy
+    config:
+      contract:
+        enforced: true
+    columns:
+      - name: row_id
+        data_type: text
+      - name: partition_field
+        data_type: int
+      - name: created_at
+        data_type: timestamp
+      - name: updated_at
+        data_type: timestamp
